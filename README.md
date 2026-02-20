@@ -1,4 +1,4 @@
-# <p align="center">✈️ Airline Reservation System 🎟️🎫</p>
+# ✈️ Airline Reservation System 🎟️🎫
 
 ## 📖 Overview
 
@@ -40,7 +40,7 @@
 
 ## 📁 Project Structure
 
-```
+```bash
 Airline-Reservation-System/
 ├── Main.java                 # Application entry point
 ├── Dashboard.java            # Main flight search interface
@@ -60,7 +60,7 @@ Airline-Reservation-System/
 
 ## 🗄️ Database Schema
 
-### Tables Used:
+### Tables Used
 
 1. **customer** - Stores user account information
    - Customer_ID, Customer_Name, Username, Password, Gender, Age, Country, etc.
@@ -95,8 +95,9 @@ Airline-Reservation-System/
    - Create a MySQL database named `airlines`
    - Import the database schema and sample data
    - Update connection credentials in `DBConnection.java`:
-     ```java
-     DriverManager.getConnection("jdbc:mysql://localhost:3306/airlines", "root", "your_password");
+
+      ```java
+      DriverManager.getConnection("jdbc:mysql://localhost:3306/airlines", "root", "your_password");
      ```
 
 3. **Open in NetBeans**
@@ -116,7 +117,7 @@ Airline-Reservation-System/
 
 ## 📋 Application Workflow
 
-### User Journey:
+### User Journey
 
 1. **Application Start** → Splash Screen
 2. **Dashboard** → Select flight type (Domestic/International)
@@ -127,7 +128,7 @@ Airline-Reservation-System/
 7. **Booking Details** → Enter passenger information
 8. **Confirmation** → Complete booking
 
-### Admin Journey:
+### Admin Journey
 
 1. **Login** → Access admin panel
 2. **View Flights** → See all flights in the system
@@ -173,14 +174,14 @@ Airline-Reservation-System/
 
 ## 🐛 Known Issues & Future Enhancements
 
-### Current Limitations:
+### Current Limitations
 
 - Single-threaded database operations
 - No payment gateway integration
 - Limited error handling in some modules
 - No email notification system
 
-### Future Enhancements:
+### Future Enhancements
 
 - Payment gateway integration (Stripe, PayPal)
 - Email confirmations for bookings
@@ -215,5 +216,3 @@ Contributions are welcome! To contribute:
 ## 📄 License
 
 This project is open source and available under the MIT License.
-
----
